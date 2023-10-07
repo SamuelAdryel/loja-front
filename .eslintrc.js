@@ -2,6 +2,7 @@
 const fs = require("fs")
 
 module.exports = {
+  ignorePatterns: ["**/*.stories.tsx"],
   extends: [
     "next",
     "prettier",

@@ -1,11 +1,13 @@
 import { GetServerSidePropsContext } from "next"
 import Head from "next/head"
+import Link from "next/link"
 import { Button } from "components/Button/Button"
 import { LP_GRID_ITEMS } from "../lp-items"
 
 export default function Web() {
   return (
     <>
+      <Link href="/dashboard">Go to Dashboard</Link>
       <Head>
         <meta property="og:url" content="https://next-enterprise.vercel.app/" />
         <meta
